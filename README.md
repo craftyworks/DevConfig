@@ -15,6 +15,10 @@
 * [ZoomIt](https://docs.microsoft.com/ko-kr/sysinternals/downloads/zoomit)
 * [칼무리](https://kalmuri.kilho.net/)
 * [paint.net](https://www.getpaint.net/download.html)
+* [putty](https://www.putty.org/)
+* [Multi PuTTY Manager](https://sourceforge.net/projects/multiputtymanager/)
+* [FileZilla](https://filezilla-project.org/)
+
 
 ## 개발툴 설치
 * oepnJDK
@@ -153,9 +157,12 @@
 ### VirtualBox
 * download
     * https://www.virtualbox.org/wiki/Downloads
-    
+* install
+    * 경로 : \AREA 88\tools\VirtualBox\
 
 
 ### Vagrant
 * download
     * https://www.vagrantup.com/downloads.html
+* install
+    * 경로 : \AREA 88\tools\Vagrant
