@@ -34,3 +34,24 @@
     JAVA_HOME : \AREA 88\tools\java\zulu8
     PATH : %JAVA_HOME%\bin
     ```
+
+### Git
+1. download
+    * https://git-scm.com/downloads
+1. install
+    * 경로 : \AREA 88\tools\Git
+    
+### Maven
+1. download
+    * https://maven.apache.org/download.cgi
+1. install
+    * 경로 : \AREA 88\tools\Maven
+1. 환경변수
+    ```
+    PATH : \AREA 88\tools\Maven\bin
+    ```
+1. settings.xml
+    * 경로 : ~\.m2\settings.xml
+    ```
+    <localRepository>C:\AREA 88\repository</localRepository>
+    ```
