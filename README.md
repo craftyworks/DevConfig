@@ -140,6 +140,9 @@
         ```
 ## Virtual Machine
 
+> 저렴한 노트북을 구했더니 Bios 에 VT-X 활성 옵션이 존재하지 않음. 
+> 64bit VM 을 돌릴 방법이 없어서 Ubuntu + Docker 환경은 포기한다. 
+
 ### Hyper-V
 * Enable Hyper-V
     * 관리자 권한으로 Windows PowerShell 실행
@@ -166,8 +169,6 @@
     * https://www.virtualbox.org/wiki/Downloads
 * install
     * 경로 : \AREA 88\tools\VirtualBox\
-* disable Hiper-V
-    * Windows 기능 켜기/끄기 > Hyper-V 선택 해제
 
 ### Vagrant
 * download
