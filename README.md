@@ -166,7 +166,8 @@
     * https://www.virtualbox.org/wiki/Downloads
 * install
     * 경로 : \AREA 88\tools\VirtualBox\
-
+* disable Hiper-V
+    * Windows 기능 켜기/끄기 > Hyper-V 선택 해제
 
 ### Vagrant
 * download
