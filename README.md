@@ -23,6 +23,8 @@
 * Maven
 * eclipse IDE
 * IntelliJ IDEA
+* lombok
+* Java Decompiler
 
 ### openJDK
 1. download
@@ -55,3 +57,73 @@
     ```
     <localRepository>C:\AREA 88\repository</localRepository>
     ```
+
+### eclipse
+1. download
+    * https://www.eclipse.org/downloads/packages/
+1. install
+    * 경로 : \AREA 88\tools\eclipse
+1. eclipse.ini 수정
+    ```
+    -vm
+    C:\AREA 88\tools\java\zulu8\bin\javaw.exe
+    -vmargs
+    -Dfile.encoding=UTF-8
+    ```
+    
+### IntelliJ IDEA
+1. download
+    * https://www.jetbrains.com/ko-kr/idea/download/
+1. install
+    * 경로 : \AREA 88\tools\IntelliJ IDEA CE
+1. idea64.exe.vmoptions 수정
+    ```
+    -Dfile.encoding=UTF-8
+    ```
+
+### lombok
+1. download
+    * https://projectlombok.org/download
+1. install
+    1. eclipse
+    ```
+    java -jar lombok.jar
+    # eclipse 설치 경로 지정
+    ```
+    1. IntelliJ IDEA
+    ```
+    install Lombok plugin
+    ```
+
+### JD GUI
+1. download
+    * http://java-decompiler.github.io/
+1. install
+    * 경로 : \AREA 88\tools\jd-gui
+    * JD-Eclipse 설치
+    ```
+    Download JD-Eclipse ZIP file,
+    Launch Eclipse,
+    Click on "Help > Install New Software...",
+    Drag and drop ZIP file on dialog windows,
+    ...
+    ```
+    
+## 개발툴 환경설정
+### eclipse
+
+### IntelliJ IDEA
+* Settings
+    * Appearance & Behavier > System Settings
+        ```
+        Default Directory : C:\AREA 88\workspace
+        ```
+    * Build > Compiler > Annotation Processors 
+        ```
+        Enable annotation processing
+        ```
+* Structure for New Projects
+    * Project Settings > Project
+        ```
+        Project SDK : 1.8
+        ```
