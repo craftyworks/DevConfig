@@ -143,3 +143,9 @@
     ```
     Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
     ```
+* Download Ubuntu
+    * Microsoft Store 에서 Ubuntu 검색 후 설치
+* Ubuntu 실행
+    ```
+    Enter New UNIX username: ddam40
+    ```
