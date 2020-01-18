@@ -149,3 +149,13 @@
     ```
     Enter New UNIX username: ddam40
     ```
+
+### VirtualBox
+* download
+    * https://www.virtualbox.org/wiki/Downloads
+    
+
+
+### Vagrant
+* download
+    * https://www.vagrantup.com/downloads.html
