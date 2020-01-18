@@ -126,6 +126,13 @@
         ```
         Enable annotation processing
         ```
+    * Editor > Code Style > Java
+        ```
+        Tab size : 2
+        Indent : 2
+        Continuation indent : 4
+        ```
+
 * Structure for New Projects
     * Project Settings > Project
         ```
