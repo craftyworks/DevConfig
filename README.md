@@ -127,3 +127,19 @@
         ```
         Project SDK : 1.8
         ```
+## Virtual Machine
+
+### Hyper-V
+* Enable Hyper-V
+    * 관리자 권한으로 Windows PowerShell 실행
+    ```
+    Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
+    ```
+    * systeminfo 실행하여 Hyper-V 요구사항 확인
+
+### WSL
+* Enable WSL
+    * 관리자 권한으로 Windows PowerShell 실행
+    ```
+    Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+    ```
