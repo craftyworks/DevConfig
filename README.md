@@ -46,6 +46,16 @@
     * https://git-scm.com/downloads
 1. install
     * 경로 : \AREA 88\tools\Git
+1. Confg
+    ```
+    git config --global user.email "craftyworks@gmail.com"
+    git config --global user.name "ddam40"
+    git config --global core.editor /usr/bin/vim
+    git config --global alias.co checkout
+    git config --global alias.br branch
+    git config --global alias.ci commit
+    git config --global alias.st status
+    ```
     
 ### Maven
 1. download
