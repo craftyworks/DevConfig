@@ -151,6 +151,18 @@
 > tab 으로 검색해서 Space Only, Tab Size 2 로 변경
 > Code Formatter 도 수정
 
+* Java > Editor > Templates
+    * test 추가
+    ```java
+    @${testType:newType(org.junit.Test)}
+    public void ${testName}() throws Exception {
+	    ${staticImport:importStatic('org.assertj.core.api.Assertions.*','org.junit.Assert.*')}${cursor}
+    }
+    ```
+    
+* General > Content Types
+    * Text > HTML 에 *.mustache 추가 [mustache 파일을 HTML Editor 로 편집]
+    
 ### IntelliJ IDEA
 * Settings
     * Appearance & Behavier > System Settings
