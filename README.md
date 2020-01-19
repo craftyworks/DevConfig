@@ -127,6 +127,30 @@
 ## 개발툴 환경설정
 ### eclipse
 
+* Java > Editor > Content Assist > Favorites
+    * New Type 추가
+    ```
+    org.assertj.core.api.Assertions 
+    ```
+* General > Appearance > Colors and Fonts
+    * Basic > Text Font : Edit 클릭하여 D2 Coding Font 로 변경
+* General > Compare/Patch
+    * Ignore white space : 체크
+* Validation
+    * Suspend all validators : 체크
+* General > Editors > Text Editors > Spelling
+    * Enable spell checking : 체크 해제
+* Java > Code Style > Organize Imports
+    * Number of static imports needed for .* : 99 에서 0 으로 변경
+* Java > Editor > Save Actions
+    * Perform the selected action on save : 체크
+    * Organize imports : 체크
+* General > Editors > Text Editors
+    * Display tab width : 2
+    * Insert spaces for tabs : 체크
+> tab 으로 검색해서 Space Only, Tab Size 2 로 변경
+> Code Formatter 도 수정
+
 ### IntelliJ IDEA
 * Settings
     * Appearance & Behavier > System Settings
