@@ -18,6 +18,7 @@
 * [putty](https://www.putty.org/)
 * [Multi PuTTY Manager](https://sourceforge.net/projects/multiputtymanager/)
 * [FileZilla](https://filezilla-project.org/)
+* [D2 Coding Font](https://github.com/naver/d2codingfont)
 
 
 ## 개발툴 설치
@@ -172,6 +173,20 @@
 * Ubuntu 실행
     ```
     Enter New UNIX username: ddam40
+    ```
+* Root 계정 패스워드
+    ```
+    sudo passwd root
+    ```
+* apt 주소 변경
+    ```
+    sudo vi /etc/apt/sources.list
+    :%s/archive.ubuntu.com/ftp.daum.net/g
+    :%s/security.ubuntu.com/ftp.daum.net/g
+    wq
+    
+    sudo apt-get update
+    sudo apt full-upgrade
     ```
 
 ### VirtualBox
