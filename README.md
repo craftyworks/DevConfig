@@ -188,7 +188,14 @@
     sudo apt-get update
     sudo apt full-upgrade
     ```
-
+* Locale 변경
+    ```
+    locale
+    locale -a
+    sudo apt-get install language-pack-ko
+    sudo vi /etc/default/locale
+        LANG=ko_KR.UTF-8
+    ```
 ### VirtualBox
 * download
     * https://www.virtualbox.org/wiki/Downloads
