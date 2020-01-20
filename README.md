@@ -243,3 +243,18 @@
     * https://www.vagrantup.com/downloads.html
 * install
     * 경로 : \AREA 88\tools\Vagrant
+#### Vagrant Box Download URL
+proxy 환경 등으로 인해 vagrant box add 가 실패하는 경우에 Browser 에서 url 로 접근하여 파일 다운로드 가능하다.
+1. [Vagrant Cloud](https://app.vagrantup.com/boxes/search) 에서 다운받고자 하는 Box 를 검색한다.
+1. 해당 Box 클릭 > Version 클릭하면 주소창의 URL 이 다음과 같이 표시된다.
+    > https://app.vagrantup.com/{group name}/boxes/{box name}/versions/{version}
+1. 위 주소 뒤에 다음과 같이 provider 정보를 추가한다.
+    > https://app.vagrantup.com/{group name}/boxes/{box name}/versions/{version}/providers/{provider}.box
+1. example
+    ```
+    # hashicorp/precise64, v1.1.0, virtualbox
+    https://app.vagrantup.com/hashicorp/boxes/precise64/versions/1.1.0/providers/virtualbox.box
+    
+    # hashicorp/precise64, v1.1.0, hyperv
+    https://app.vagrantup.com/hashicorp/boxes/precise64/versions/1.1.0/providers/hyperv.box
+    ```
