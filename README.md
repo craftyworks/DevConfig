@@ -179,6 +179,10 @@
         Indent : 2
         Continuation indent : 4
         ```
+    * Editor > Font
+        ```
+	D2Coding
+	```
 
 * Structure for New Projects
     * Project Settings > Project
