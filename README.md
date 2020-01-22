@@ -275,3 +275,30 @@ proxy 환경 등으로 인해 vagrant box add 가 실패하는 경우에 Browser
     # hashicorp/precise64, v1.1.0, hyperv
     https://app.vagrantup.com/hashicorp/boxes/precise64/versions/1.1.0/providers/hyperv.box
     ```
+
+#### Vagrant ssh 오류 해결
+* centos/7 설치 후 vagrant ssh 시도 시 오류 발생
+```
+vagrant ssh
+vagrant@xxx.xxx.xxx.xxx: Permission denied (publickey,gssapi-keyex,gssapi-with-mic).
+```
+
+* 상세 로그를 출력
+```
+vagrant ssh -- -vvv
+```
+
+* private key 의 권한이 너무 오픈되어 있다고 함;
+```
+debug1: Trying private key: D:/AREA 88/workspace/vagrant-centos/.vagrant/machines/default/hyperv/private_key
+debug3: Bad permissions. Try removing permissions for user: S-1-5-11 on file D:/AREA 88/workspace/vagrant-centos/.vagrant/machines/default/hyperv/private_key.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Permissions for 'D:/AREA 88/workspace/vagrant-centos/.vagrant/machines/default/hyperv/private_key' are too open.
+It is required that your private key files are NOT accessible by others.
+```
+
+> The permission issue with "vagrant ssh" on the windows environment is normally because the private_key file created during "vagrant up" has more than one permitted user.
+Please check the security permissions of  the "private_key" file. It should only have you as a user in the list of permitted users/groups.
+Only in that case, shh accepts the private_key file as really private.
