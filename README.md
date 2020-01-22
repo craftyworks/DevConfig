@@ -247,6 +247,19 @@
     * https://www.vagrantup.com/downloads.html
 * install
     * 경로 : \AREA 88\tools\Vagrant
+
+#### Vagrant Proxy Setting
+* Windows 환경변수 설정
+```
+set http_proxy=http://yourproxyserver:port
+set https_proxy=https://yourproxyserver:port
+```
+
+* plugin 설치
+```
+vagrant plugin install vagrant-proxyconf
+```
+
 #### Vagrant Box Download URL
 proxy 환경 등으로 인해 vagrant box add 가 실패하는 경우에 Browser 에서 url 로 접근하여 파일 다운로드 가능하다.
 1. [Vagrant Cloud](https://app.vagrantup.com/boxes/search) 에서 다운받고자 하는 Box 를 검색한다.
