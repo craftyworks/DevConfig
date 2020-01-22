@@ -299,6 +299,7 @@ Permissions for 'D:/AREA 88/workspace/vagrant-centos/.vagrant/machines/default/h
 It is required that your private key files are NOT accessible by others.
 ```
 
-> The permission issue with "vagrant ssh" on the windows environment is normally because the private_key file created during "vagrant up" has more than one permitted user.
-Please check the security permissions of  the "private_key" file. It should only have you as a user in the list of permitted users/groups.
-Only in that case, shh accepts the private_key file as really private.
+* 콘솔 창에서 아래 명령어로 현재 유저에게만 권한 부여
+```
+icacls vagrant-centos /inheritance:r /grant {사용자}:(OI)(CI)F
+```
