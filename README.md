@@ -260,6 +260,15 @@ set https_proxy=https://yourproxyserver:port
 vagrant plugin install vagrant-proxyconf
 ```
 
+* Vagrantfile
+```
+  if Vagrant.has_plugin?("vagrant-proxyconf")
+	config.proxy.http     = "http://70.10.15.10:8080"
+	config.proxy.https    = "http://70.10.15.10:8080"
+	config.proxy.no_proxy = "localhost,127.0.0.1"
+  end
+```
+  
 #### Vagrant Box Download URL
 proxy 환경 등으로 인해 vagrant box add 가 실패하는 경우에 Browser 에서 url 로 접근하여 파일 다운로드 가능하다.
 1. [Vagrant Cloud](https://app.vagrantup.com/boxes/search) 에서 다운받고자 하는 Box 를 검색한다.
