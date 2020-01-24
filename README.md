@@ -28,6 +28,8 @@
 * Maven
 * eclipse IDE
 * IntelliJ IDEA
+* Android Studio
+* Visual Studio Code
 * lombok
 * Java Decompiler
 
@@ -95,7 +97,16 @@
     ```
     -Dfile.encoding=UTF-8
     ```
-
+### Android Studio 
+1. download
+    * https://developer.android.com/studio/?hl=ko
+1. install
+    * 경로 : \AREA 88\tools\Android Studio
+1. studio64.exe.vmoptions 수정
+    ```
+    -Dfile.encoding=UTF-8
+    ```
+    
 ### lombok
 1. download
     * https://projectlombok.org/download
@@ -183,7 +194,12 @@
         ```
 	D2Coding
 	```
-
+    * Editor > General > Auto Import
+        ```
+	Add unambiguous imports on the fly
+	Optimize imports on the fly
+	```
+	
 * Structure for New Projects
     * Project Settings > Project
         ```
