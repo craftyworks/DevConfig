@@ -59,7 +59,11 @@
     git config --global alias.ci commit
     git config --global alias.st status
     ```
-    
+> remote 작업 시 github 로그인 과정이 귀찮다. 로그인 정보를 cache 하여 이 과정을 생략 가능하다. 자세한 설명은 [이곳](https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage) 을 참고하자.
+```
+git config --global credential.helper store
+```
+
 ### Maven
 1. download
     * https://maven.apache.org/download.cgi
@@ -189,6 +193,7 @@
         Tab size : 2
         Indent : 2
         Continuation indent : 4
+        Imports Tab > Names count to use static import with '*': 0
         ```
     * Editor > Font
         ```
