@@ -197,19 +197,24 @@ git config --global credential.helper store
         ```
     * Editor > Font
         ```
-	D2Coding
-	```
+        D2Coding
+        ```
     * Editor > General > Auto Import
         ```
 	Add unambiguous imports on the fly
 	Optimize imports on the fly
-	```
-	
+        ```    
+    * Tools > Terminal
+        Shell Path : C:\Windows\System32\bash.exe 
+
 * Structure for New Projects
     * Project Settings > Project
         ```
         Project SDK : 1.8
         ```
+### VS Code
+    * Render Witespace : Boundary
+
 ## Virtual Machine
 
 > 저렴한 노트북을 구했더니 Bios 에 VT-X 활성 옵션이 존재하지 않음. 
