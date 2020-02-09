@@ -171,7 +171,7 @@ git config --global credential.helper store
     ```java
     @${testType:newType(org.junit.Test)}
     public void ${testName}() throws Exception {
-	    ${staticImport:importStatic('org.assertj.core.api.Assertions.*','org.junit.Assert.*')}${cursor}
+     ${staticImport:importStatic('org.assertj.core.api.Assertions.*','org.junit.Assert.*')}${cursor}
     }
     ```
     
@@ -201,11 +201,17 @@ git config --global credential.helper store
         ```
     * Editor > General > Auto Import
         ```
-	Add unambiguous imports on the fly
-	Optimize imports on the fly
-        ```    
+        Add unambiguous imports on the fly
+        Optimize imports on the fly
+        ```
     * Tools > Terminal
+        ```
         Shell Path : C:\Windows\System32\bash.exe 
+        ```
+    * Editor > General > Appearance
+        ```
+        Show whitespaces
+        ```
 
 * Structure for New Projects
     * Project Settings > Project
@@ -289,9 +295,9 @@ vagrant plugin install vagrant-proxyconf
 * Vagrantfile
 ```
   if Vagrant.has_plugin?("vagrant-proxyconf")
-	config.proxy.http     = "http://70.10.15.10:8080"
-	config.proxy.https    = "http://70.10.15.10:8080"
-	config.proxy.no_proxy = "localhost,127.0.0.1"
+ config.proxy.http     = "http://70.10.15.10:8080"
+ config.proxy.https    = "http://70.10.15.10:8080"
+ config.proxy.no_proxy = "localhost,127.0.0.1"
   end
 ```
   
