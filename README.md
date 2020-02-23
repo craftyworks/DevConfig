@@ -212,6 +212,10 @@ git config --global credential.helper store
         ```
         Show whitespaces
         ```
+    * Editor > General > Other
+        ```
+        Show quick documentation on mouse move
+        ```
 
 * Structure for New Projects
     * Project Settings > Project
