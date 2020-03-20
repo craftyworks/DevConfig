@@ -16,6 +16,7 @@
 * [칼무리](https://kalmuri.kilho.net/)
 * [paint.net](https://www.getpaint.net/download.html)
 * [putty](https://www.putty.org/)
+* [MobaXterm](https://mobaxterm.mobatek.net/)
 * [Multi PuTTY Manager](https://sourceforge.net/projects/multiputtymanager/)
 * [FileZilla](https://filezilla-project.org/)
 * [D2 Coding Font](https://github.com/naver/d2codingfont)
@@ -190,10 +191,7 @@ git config --global credential.helper store
         ```
     * Editor > Code Style > Java
         ```
-        Tab size : 2
-        Indent : 2
-        Continuation indent : 4
-        Imports Tab > Names count to use static import with '*': 0
+        Imports Tab > Names count to use static import with '*': 1
         ```
     * Editor > Font
         ```
@@ -215,6 +213,10 @@ git config --global credential.helper store
     * Editor > General > Other
         ```
         Show quick documentation on mouse move
+        ```
+    * Editor > Code Style > HTML
+        ```
+        Other Tab -> Generated quote marks: None
         ```
 
 * Structure for New Projects
