@@ -1,4 +1,4 @@
-##.eslintrc.js
+## .eslintrc.js
 
 ### rules
 
