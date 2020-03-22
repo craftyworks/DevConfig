@@ -217,8 +217,11 @@ git config --global credential.helper store
     * Editor > Code Style > HTML
         ```
         Other Tab -> Generated quote marks: None
-        ```
 
+        🐫 Other Tab -> Do not indent children of: script 추가 🐫
+        ```
+        > 처음꺼는 " 자동 입력되는걸 막는거고, 아래는 eslint 때문에 필요하다.
+    
 * Structure for New Projects
     * Project Settings > Project
         ```
