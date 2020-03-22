@@ -1,6 +1,9 @@
 # DevConfig
 로컬PC 개발환경 구성 절차
 
+🐈 [IDE 단축키](IDE%20shortcut.md)  
+🐅 [ESLINT](eslint.md)
+
 ## 디렉토리 구조
 * AREA 88
     * download
