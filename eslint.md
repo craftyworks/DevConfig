@@ -2,7 +2,12 @@
 
 eslint 를 사용하며 겪는 혼란스러움을 정리하며 해결해 보자
 
-> .eslintrc.js 수정후는 ```Apply ESLint Code Style rules``` 로 IntelliJ Code Sylte 에 반영해 주어야 한다.
+### IntelliJ
+
+* Settings
+  * Editor > Code Style > HTML > Other
+    * Do not indent children of 항목에 ```script``` 태그를 추가한다.
+* .eslintrc.js 파일 수정후에 ```Apply ESLint Code Style rules``` 로 Code Sylte 에 반영한다.
 
 ### rules
 
