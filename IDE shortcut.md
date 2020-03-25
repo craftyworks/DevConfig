@@ -70,6 +70,10 @@ Line Comment | Ctrl + /
 Block Comment | Ctrl + Shift + /
 Refactor this | Ctrl + Shift + Alt + T
 Compare Files | Ctrl + D
+🍄 Code Folding Expand | Ctrl + ```+``` or ```=```
+🍄 Code Folding Collapse | Ctrl + ```-```
+Code Folding Expand All | Ctrl + Shift + ```+``` or ```=```
+Code Folding Collapse All | Ctrl + Shift + ```-```
 
 > https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf
 

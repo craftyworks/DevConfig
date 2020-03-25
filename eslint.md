@@ -41,3 +41,16 @@ trim_trailing_whitespace = true
     // allow trailing whitespace at the end of lines 
     'no-trailing-spaces': 'off'
 ```
+
+#### eol-last
+
+파일의 맨 끝이 개행문자(```\n```) 로 끝나야 한다.
+
+* Unix 에서는 상식이라고 한다. 파일을 합치거나 append 를 하는 경우를 고려하면 좋아보이긴 한다만... 
+* 잘 납득은 안가지만 [EditorConfg](https://editorconfig.org/) 의 ```insert_final_newline``` 옵션을 사용하면 자동으로 처리가 되니 적용해도 무방하겠다.
+* [insert_final_newline](https://github.com/editorconfig/editorconfig/wiki/EditorConfig-Properties)
+
+**.editorconfig 파일** 에 아래와 같이 설정되어 있어야 한다.
+```
+insert_final_newline = true
+```
