@@ -2,6 +2,8 @@
 
 eslint 를 사용하며 겪는 혼란스러움을 정리하며 해결해 보자
 
+> .eslintrc.js 수정후는 ```Apply ESLint Code Style rules``` 로 IntelliJ Code Sylte 에 반영해 주어야 한다.
+
 ### rules
 
 #### space-before-function-paren
