@@ -89,4 +89,35 @@ git config --global -e
 
 ### Ground Rules
 
-:art: Improving structure / format of the code.
+* Initial Commit
+  * 🎉 :tada:
+* Bug Fix
+  * 🐛 :bug:
+  * 💥 :boom: 
+* Improving structure, performance, ui
+  * 🎨 :art: 
+  * 🚀 :rocket: 
+  * 💡 :bulb: 
+  * 💄 :lipstick: 
+* Snapshot, Versionning
+  * 📌 :pushpin: 
+  * 🔖 :bookmark: 
+* Comment
+  * 🏷️ :label: 
+  * 📝 :pencil: 
+  * 📚	:books:
+* Restore, 원복
+  * 🔙 :back:
+  * ⏪ :rewind:
+* Delete File or Code
+  * ❌ :x:
+  * ⚡️ :zap: 
+  * 🔥 :fire: 
+* Move or Rename
+  * 🚚 :truck: 
+* Fixme
+  * 💩 :poop: 
+  * 💤 :zzz:
+* Refactor code	
+  * 🔨 :hammer:
+
