@@ -90,34 +90,34 @@ git config --global -e
 ### Ground Rules
 
 * Initial Commit
-  * 🎉 :tada:
+  * 🎉 `:tada:`
 * Bug Fix
-  * 🐛 :bug:
-  * 💥 :boom: 
+  * 🐛 `:bug:`
+  * 💥 `:boom:` 
 * Improving structure, performance, ui
-  * 🎨 :art: 
-  * 🚀 :rocket: 
-  * 💡 :bulb: 
-  * 💄 :lipstick: 
+  * 🎨 `:art:`
+  * 🚀 `:rocket:` 
+  * 💡 `:bulb:`
+  * 💄 `:lipstick:` 
 * Snapshot, Versionning
-  * 📌 :pushpin: 
-  * 🔖 :bookmark: 
+  * 📌 `:pushpin:`
+  * 🔖 `:bookmark: `
 * Comment
-  * 🏷️ :label: 
-  * 📝 :pencil: 
-  * 📚	:books:
+  * 🏷️ `:label:`
+  * 📝 `:pencil: `
+  * 📚	`:books:`
 * Restore, 원복
-  * 🔙 :back:
-  * ⏪ :rewind:
+  * 🔙 `:back:`
+  * ⏪ `:rewind:`
 * Delete File or Code
-  * ❌ :x:
-  * ⚡️ :zap: 
-  * 🔥 :fire: 
+  * ❌ `:x:`
+  * ⚡️ `:zap:` 
+  * 🔥 `:fire:`
 * Move or Rename
-  * 🚚 :truck: 
+  * 🚚 `:truck: `
 * Fixme
-  * 💩 :poop: 
-  * 💤 :zzz:
+  * 💩 `:poop:`
+  * 💤 `:zzz:`
 * Refactor code	
-  * 🔨 :hammer:
+  * 🔨 `:hammer:`
 
