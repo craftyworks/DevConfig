@@ -109,6 +109,7 @@ Action | Bindng
 현재 커서에서 줄 끝까지 삭제 | d$ 또는 D
 현재 커서에서 줄 끝까지 삭제하고 insert mode | c$ 또는 C
 명령어 모드에서 붙여넣기 | Ctrl + R 후 0..9
+Column Selection Mode | Ctrl + V 
 
 ![](/assets/images/vim_shortcut.jpg)
 
