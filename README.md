@@ -225,7 +225,17 @@ git config --global credential.helper store
         🐫 Other Tab -> Do not indent children of: script 추가 🐫
         ```
         > 처음꺼는 " 자동 입력되는걸 막는거고, 아래는 eslint 때문에 필요하다.
-    
+    * Editor > Code Style > JavaScript
+        ```
+        Wrapping and Braces > Objects > Do not wrap
+        ```
+        > 🌈Formatting 시에 Object 의 properties 를 한 라인에 표현 가능하도록 한다.
+    * Editor > Code Style > JavaScript
+        ```
+        Puctuation > Trailing Comma : Add when multiline
+        ```
+        > 💎[airbnb](https://github.com/airbnb/javascript#commas--dangling) 스타일을 따라 보자
+        
 * Structure for New Projects
     * Project Settings > Project
         ```

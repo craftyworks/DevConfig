@@ -80,3 +80,13 @@ git config --global -e
 [mergetool]
 	prompt = false
 ```
+
+## Emoji commit message
+
+* https://gitmoji.carloscuesta.me/
+* [Git commit message emoji](https://gist.github.com/parmentf/035de27d6ed1dce0b36a)
+* https://github.com/dannyfritz/commit-message-emoji
+
+### Ground Rules
+
+:art: Improving structure / format of the code.

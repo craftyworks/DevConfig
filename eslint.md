@@ -1,6 +1,13 @@
 ## .eslintrc.js
 
-eslint 를 사용하며 겪는 혼란스러움을 정리하며 해결해 보자
+`eslint` 를 사용하며 겪는 혼란스러움을 정리하며 해결해 보자
+
+- IntelliJ
+- Rules
+  - space-before-function-paren
+  - no-trailing-spaces
+  - eol-last
+
 
 ### IntelliJ
 
@@ -9,7 +16,9 @@ eslint 를 사용하며 겪는 혼란스러움을 정리하며 해결해 보자
     * Do not indent children of 항목에 ```script``` 태그를 추가한다.
 * .eslintrc.js 파일 수정후에 ```Apply ESLint Code Style rules``` 로 Code Sylte 에 반영한다.
 
-### rules
+---
+
+### Rules
 
 #### space-before-function-paren
 
@@ -54,3 +63,22 @@ trim_trailing_whitespace = true
 ```
 insert_final_newline = true
 ```
+#### comma-dangle
+
+* 오브젝트나 배열 선언 시에 맨 뒤에 `,` 가 있어야 하는지를 정의.
+* multi line 으로 선언할 경우는 있는것이 `diff` 가 이쁘장하게 나올거 같긴 하다.
+* [airbnb](https://github.com/airbnb/javascript#commas--dangling)
+* https://eslint.org/docs/rules/comma-dangle
+
+> onlymultiline 으로 지정하는게 좋을 것 같다.
+
+```javascript
+eslint comma-dangle: ["error", "only-multiline"]
+```
+
+> IntelliJ 의 아래 설정으로 Formatting 시 자동으로 처리하자.
+
+    * Editor > Code Style > JavaScript
+        ```
+        Puctuation > Trailing Comma : Add when multiline
+        ```
