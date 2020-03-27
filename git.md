@@ -21,6 +21,23 @@ git config --global core.deitor "code --wait"
 ```shell
 git config --global -e
 ```
+
+### git st 한글 깨짐
+
+`git st` 시 한글 파일명이 깨지는 경우, 아래 설정을 추가한다.
+
+```shell
+git config --global core.quotepath false
+```
+
+### git log 한글 깨짐
+
+`git log` 시 한글 본문이 escape 되어 나타나는 경우에 아래 환경변수를 추가한다.
+
+```shell
+set LC_ALL=ko_KR.UTF-8
+```
+
 ### difftool 변경
 
 * Visual Studio Code 를 difftool, mergetool 로 설정한다.
