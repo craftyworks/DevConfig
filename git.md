@@ -106,35 +106,27 @@ set LC_ALL=ko_KR.UTF-8
 
 ### Ground Rules
 
-* Initial Commit
-  * 🎉 `:tada:`
-* Bug Fix
-  * 🐛 `:bug:`
-  * 💥 `:boom:` 
-* Improving structure, performance, ui
-  * 🎨 `:art:`
-  * 🚀 `:rocket:` 
-  * 💡 `:bulb:`
-  * 💄 `:lipstick:` 
-* Snapshot, Versionning
-  * 📌 `:pushpin:`
-  * 🔖 `:bookmark: `
-* Comment
-  * 🏷️ `:label:`
-  * 📝 `:pencil: `
-  * 📚	`:books:`
-* Restore, 원복
-  * 🔙 `:back:`
-  * ⏪ `:rewind:`
-* Delete File or Code
-  * ❌ `:x:`
-  * ⚡️ `:zap:` 
-  * 🔥 `:fire:`
-* Move or Rename
-  * 🚚 `:truck: `
-* Fixme
-  * 💩 `:poop:`
-  * 💤 `:zzz:`
-* Refactor code	
-  * 🔨 `:hammer:`
+| 작업 구분 | 이모지
+| --- | ---
+| Initial Commit | 🎉 `:tada:`
+| Bug Fix | 🐛 `:bug:`
+|| 💥 `:boom:` 
+| Improving structure, performance, ui | 🎨 `:art:`
+|| 🚀 `:rocket:` 
+|| 💡 `:bulb:`
+|| 💄 `:lipstick:` 
+| Snapshot, Versionning | 📌 `:pushpin:`
+|| 🔖 `:bookmark: `
+| Comment | 🏷️ `:label:`
+|| 📝 `:pencil: `
+|| 📚	`:books:`
+| Restore, 원복 | 🔙 `:back:`
+|| ⏪ `:rewind:`
+| Delete File or Code | ❌ `:x:`
+|| ⚡️ `:zap:` 
+|| 🔥 `:fire:`
+| Move or Rename | 🚚 `:truck: `
+| Fixme | 💩 `:poop:`
+|| 💤 `:zzz:`
+| Refactor code	| 🔨 `:hammer:`
 
