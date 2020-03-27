@@ -1,4 +1,4 @@
-# Git
+# :hash: Git
 
 ## Link
 
@@ -110,11 +110,16 @@ set LC_ALL=ko_KR.UTF-8
 | --- | ---
 | Initial Commit | 🎉 `:tada:`
 | Bug Fix | 🐛 `:bug:`
+|| 🐞 `:beetle:`
+|| 🐸 `:frog:`
 || 💥 `:boom:` 
 | Improving structure, performance, ui | 🎨 `:art:`
 || 🚀 `:rocket:` 
 || 💡 `:bulb:`
 || 💄 `:lipstick:` 
+|| 🌻🌼 `:sunflower:` `:blossom:`
+|| 🏆 `:trophy:`
+| Add new features | 🎅	`:santa:`
 | Snapshot, Versionning | 📌 `:pushpin:`
 || 🔖 `:bookmark: `
 | Comment | 🏷️ `:label:`
@@ -126,7 +131,16 @@ set LC_ALL=ko_KR.UTF-8
 || ⚡️ `:zap:` 
 || 🔥 `:fire:`
 | Move or Rename | 🚚 `:truck: `
+|| 🚕 `:taxi:`
+|| 🏍 `:motorcycle:`
+|| 🚑 `:ambulance:`
+|| 🚁 `:helicopter:`
+| Move Forward | 🐫 `:camel:`
+|| 🦌🐘 `:deer:` `:elephant:`
+|| 🐂 `:ox:`
+|| 🐏🐑	`:ram:` `:sheep:`
 | Fixme | 💩 `:poop:`
 || 💤 `:zzz:`
+|| 💀 `:skull:`
 | Refactor code	| 🔨 `:hammer:`
 
