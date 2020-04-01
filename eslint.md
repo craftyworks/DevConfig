@@ -7,7 +7,8 @@
   - space-before-function-paren
   - no-trailing-spaces
   - eol-last
-
+  - comma-dangle
+  - no-template-curly-in-string
 
 ### IntelliJ
 
@@ -15,6 +16,13 @@
   * Editor > Code Style > HTML > Other
     * Do not indent children of 항목에 ```script``` 태그를 추가한다.
 * .eslintrc.js 파일 수정후에 ```Apply ESLint Code Style rules``` 로 Code Sylte 에 반영한다.
+
+### 파일 단위로 Rule 설정
+> 파일의 첫 라인에 comment 로 Rule 설정을 등록한다.
+
+```javascript
+/* eslint no-template-curly-in-string: 0 */
+```
 
 ---
 
@@ -82,3 +90,8 @@ eslint comma-dangle: ["error", "only-multiline"]
         ```
         Puctuation > Trailing Comma : Add when multiline
         ```
+
+#### no-template-curly-in-string
+
+> 일반 문자열 선언에 `${변수}` expression 사용할 수 없음. 백틱(`) 을 사용하는 문자열 템플릿을 사용해야 함
+
