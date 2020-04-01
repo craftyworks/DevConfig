@@ -243,7 +243,8 @@ git config --global credential.helper store
         ```
 ### VS Code
     * Render Witespace : Boundary
-
+    * Diff Editor : Ignore Trim Whitespace
+    
 ## Virtual Machine
 
 > 저렴한 노트북을 구했더니 Bios 에 VT-X 활성 옵션이 존재하지 않음. 
