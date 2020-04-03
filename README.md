@@ -244,6 +244,7 @@ git config --global credential.helper store
 ### VS Code
     * Render Witespace : Boundary
     * Diff Editor : Ignore Trim Whitespace
+    * Editor : Render Whitespace : all
     
 ## Virtual Machine
 
