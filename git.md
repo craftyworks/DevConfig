@@ -62,6 +62,15 @@ set LC_ALL=ko_KR.UTF-8
 [mergetool]
 	prompt = false
 ```
+
+### CR/LF 설정
+
+* core.autocrlf = true : CRLF 를 LF 로 변환
+
+```shell
+git config --global core.autocrlf true
+```
+
 ## ~/.gitconfig
 
 현재 설정 업데이트
@@ -78,6 +87,7 @@ set LC_ALL=ko_KR.UTF-8
 [core]
 	quotepath = false
 	editor = code --wait
+	autocrlf = true
 [credential]
 	helper = manager
 [diff]
@@ -127,7 +137,8 @@ set LC_ALL=ko_KR.UTF-8
 || 📚	`:books:`
 | Restore, 원복 | 🔙 `:back:`
 || ⏪ `:rewind:`
-| Delete File or Code | ❌ `:x:`
+| Delete File or Code | ✂️ :scissors:
+|| ❌ `:x:`
 || ⚡️ `:zap:` 
 || 🔥 `:fire:`
 | Move or Rename | 🚚 `:truck: `
