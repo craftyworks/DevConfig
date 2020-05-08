@@ -70,6 +70,7 @@ Line Comment | Ctrl + /
 Block Comment | Ctrl + Shift + /
 Refactor this | Ctrl + Shift + Alt + T
 Compare Files | Ctrl + D
+Move to Line/Column | Ctrl + G
 🍄 Code Folding Expand | Ctrl + ```+``` or ```=```
 🍄 Code Folding Collapse | Ctrl + ```-```
 Code Folding Expand All | Ctrl + Shift + ```+``` or ```=```
