@@ -74,6 +74,7 @@ Compare Files | Ctrl + D
 🍄 Code Folding Collapse | Ctrl + ```-```
 Code Folding Expand All | Ctrl + Shift + ```+``` or ```=```
 Code Folding Collapse All | Ctrl + Shift + ```-```
+Insert Live Template | Ctrl + J
 
 > https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf
 
@@ -91,6 +92,17 @@ imap jj <ESC>
 imap kk <ESC>
 
 ```
+
+### Live Template
+
+* Abbreviation : log
+* Applicable : Java > Declaration
+* text
+```java
+private final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger( this.getClass() );
+$END$
+```
+
 ## Android Studio
 
 Action | Binding | 
