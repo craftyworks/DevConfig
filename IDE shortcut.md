@@ -154,3 +154,24 @@ imap kk <ESC>
 ```
 
 참고 : [Document - Configuration](http://vrapper.sourceforge.net/documentation/?topic=configuration)
+
+## Chrome
+
+> 크롬도 `IDE` 가 맞다?
+
+Action | Binding
+--- | ---
+새 창 열기 | Ctrl + n
+새 탭을 열어 이동 | Ctrl + t
+다음에 연 탭으로 이동 | Ctrl + Tab 또는 🍄 `Ctrl + PgDn`
+이전에 연 탭으로 이동 | Ctrl + Shift + Tab 또는 🍄 `Ctrl + PgUp`
+cycle through open tabs | Ctrl + `1 ~ 8`
+맨 오른쪽 탭으로 이동 | Ctrl + 9
+현재 탭 닫기 | Ctrl + w 또는 Ctrl + F4
+검색주소창으로 이동 | Ctrl + l
+페이지의 모든 항목 확대 | Ctrl + `+`
+페이지의 모든 항목 축소 | Ctrl + `-`
+웹페이지와 화면을 한 번에 아래로 스크롤 | Space
+웹페이지와 화면을 한 번에 위로 스크롤 | Shift + Space
+페이지 맨위로 이동 | Home
+페이지 맨아래로 이동 | End
