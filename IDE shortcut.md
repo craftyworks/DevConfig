@@ -175,4 +175,5 @@ cycle through open tabs | Ctrl + `1 ~ 8`
 웹페이지와 화면을 한 번에 위로 스크롤 | Shift + Space
 페이지 맨위로 이동 | Home
 페이지 맨아래로 이동 | End
-페이지 새로고침ㅣ
+페이지 새로고침ㅣCtrl + r
+
