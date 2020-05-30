@@ -11,6 +11,7 @@
 
 Action | Binding
 --- | ---
+Show Command Pallette | Ctrl + Shift + P
 Delete Line | Ctrl + Shift + K | 
 Move line up/down | Alt + ↑/↓ | 
 Go back/forward | Alt + ←/→ | 
