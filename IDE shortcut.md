@@ -76,6 +76,7 @@ Move to Line/Column | Ctrl + G
 Code Folding Expand All | Ctrl + Shift + ```+``` or ```=```
 Code Folding Collapse All | Ctrl + Shift + ```-```
 Insert Live Template | Ctrl + J
+Find in Path... | Ctrl + Shift + F
 
 > https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf
 
