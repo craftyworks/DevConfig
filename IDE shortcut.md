@@ -170,12 +170,19 @@ Action | Binding
 cycle through open tabs | Ctrl + `1 ~ 8`
 맨 오른쪽 탭으로 이동 | Ctrl + 9
 현재 탭 닫기 | Ctrl + w 또는 Ctrl + F4
-검색주소창으로 이동 | Ctrl + l
+검색주소창으로 이동 | Ctrl + l 또는 F6
 페이지의 모든 항목 확대 | Ctrl + `+`
 페이지의 모든 항목 축소 | Ctrl + `-`
 웹페이지와 화면을 한 번에 아래로 스크롤 | Space
 웹페이지와 화면을 한 번에 위로 스크롤 | Shift + Space
 페이지 맨위로 이동 | Home
 페이지 맨아래로 이동 | End
-페이지 새로고침 | Ctrl + r
+페이지 새로고침 | Ctrl + r 또는 F5
+찾기 창을 열고 현재 페이지 내 검색 | Ctrl + f 또는 F3
+찾기 창 검색과 일치하는 다음 항목으로 이동 | Ctrl + g
+현재 웹페이지를 북마크로 저장 | Ctrl + d
+
+https://support.google.com/chrome/answer/157179?hl=ko
+
+
 
