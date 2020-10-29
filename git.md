@@ -65,10 +65,15 @@ set LC_ALL=ko_KR.UTF-8
 
 ### CR/LF 설정
 
-* core.autocrlf = true : CRLF 를 LF 로 변환
+* core.autocrlf = true : 커밋할때 LF 로 변환하고 체크아웃할때 CRLF 로 변환해준다. (Windows 설정)
+* core.autocrlf = input : 커밋할때만 LF 로 변환한다. (Linux 설정)
 
 ```shell
+/* Windows */
 git config --global core.autocrlf true
+
+/* Linux */
+git config --global core.autocrlf input
 ```
 
 ## ~/.gitconfig
